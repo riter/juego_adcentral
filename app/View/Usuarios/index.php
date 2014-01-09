@@ -35,7 +35,7 @@ $dominio = Router::url('/', true);
                     </li>
                     <li>
                         <label>•<span>dni:</span></label>
-                        <?= $this->Form->input('dni', array('label' => false, 'div' => false));?>
+                        <?= $this->Form->input('dni', array('maxlength'=>'8','label' => false, 'div' => false));?>
                     </li>
                     <li>
                         <label>•<span>email:</span></label>

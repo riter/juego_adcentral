@@ -65,6 +65,10 @@ class CompartirsController extends AppController{
 
             $res['msg']='Ok';
 
+            //$compartir=new
+            $compartir=$this->Compartir->find('count',array('group' => 'id'));
+            $res['compartir']=substr('000000',6-strlen($compartir)).$compartir;
+
             App::import('Controller', 'Instanwins');
             $instanwin=new InstanwinsController();
 
@@ -114,5 +118,18 @@ class CompartirsController extends AppController{
 
     public function invitar(){
         $this->layout='';
+    }
+
+    public function ganaste($premio=null,$hash=null){
+        $this->layout='';
+        if ($this->request->is('get')) {
+            $this->set('premio',$premio);
+            $this->set('hash',$hash);
+        }
+    }
+
+    public function compartiste($premio=null,$hash=null){
+        $this->layout='';
+
     }
 } 

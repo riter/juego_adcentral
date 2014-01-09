@@ -17,6 +17,9 @@ body{
     overflow: hidden;
 }
 
+input{
+    outline: none !important;
+}
 .contenedor{
     font-family:'carbon';
     position: relative;

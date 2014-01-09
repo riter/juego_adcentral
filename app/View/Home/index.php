@@ -44,6 +44,8 @@ $dominio = Router::url('/', true);
             $('.btnFacebook').click(function(){
                 if(ajax_puede_compartir()){
                     facebook.postearMuro(callbackFacebook);
+                }else{
+                    openFancy('/compartirs/compartiste');
                 }
                 return false;
             });
@@ -62,6 +64,7 @@ $dominio = Router::url('/', true);
                     return true;
                 }else{
                     /*Mostrar mensaje de ya compartio*/
+                    openFancy('/compartirs/compartiste');
                 }
                 return false;
 
@@ -146,13 +149,12 @@ $dominio = Router::url('/', true);
                         var datos=eval(response);
                         console.log(response);
 
-                        if(datos.msg=='compartio'){
-                            alert('Ud ya compartio el dia de hoy');
-                        }else{
-                            if(datos.msg=='Ok' && datos.ganador=='Ok'){
-                                alert('Felicitacion ganaste un/a '+datos.premio+' con has:'+ datos.hash);
-                            }
+                        $('.numero-1').html(datos.compartir);
+                        if(datos.msg=='Ok' && datos.ganador=='Ok'){
+                            //alert('Felicitacion ganaste un/a '+datos.premio+' con has:'+ datos.hash);
+                            openFancy('/compartirs/ganaste/'+datos.premio+'/'+'/'+datos.hash);
                         }
+
                     }
                 });
             }
@@ -222,7 +224,7 @@ $dominio = Router::url('/', true);
                 return res;
             }
 
-            $('.link-2').click(function(){
+            $('.conoce').click(function(){
                 openFancy('/home/conoce');
                 return false;
             }) ;
@@ -260,7 +262,7 @@ $dominio = Router::url('/', true);
         <a href="#"  class="fancy"><img src="" alt="" /></a>
         <ul class="menu">
             <li><a class="link-1" href="#" >¿COMO JUEGO?</a></li>
-            <li><a class="link-2" href="#" >CONOCE AL EQUIPO QUE TE ACOMPAÑA</a></li>
+            <li><a class="link-2 conoce" href="#" >CONOCE AL EQUIPO QUE TE ACOMPAÑA</a></li>
             <li><a class="link-3" href="#" >GANADORES</a></li>
         </ul>
 

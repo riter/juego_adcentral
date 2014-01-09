@@ -26,7 +26,7 @@ $dominio = Router::url('/', true);
         <div class="frm_login">
             <ul>
                 <li>
-                    <?= $this->Form->input('dni', array('placeholder'=>'INGRESAR DNI','label' => false, 'div' => false)); ?>
+                    <?= $this->Form->input('dni', array('maxlength'=>'8','placeholder'=>'INGRESAR DNI','label' => false, 'div' => false)); ?>
                     <div class="boton_enviar">
                         <input type="submit" class="boton" value="enviar" id="enviar"/>
                     </div>
