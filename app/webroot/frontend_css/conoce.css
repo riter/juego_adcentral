@@ -1,0 +1,113 @@
+/*******************************
+The Fonts
+*******************************/
+*{
+    margin:0;
+    padding:0;
+}
+@font-face{
+    font-family:'carbon';
+    src:url("../frontend_fonts/CARBONBL.TTF");
+    font-weight:normal;
+    font-style:normal;
+}
+
+body{
+    height: 100%;
+    overflow: hidden;
+}
+
+.contenedor{
+    font-family:'carbon';
+    position: relative;
+    max-width: 607px;
+    min-width: 300px;
+    /*min-height: 387px;*/
+    height: 100%;
+    padding: 20px 0px;
+    background-image: url(../frontend_images/bg_popup.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+h2,span{
+    font-family: 'carbon';
+    color: #ffffff;
+}
+h2{
+    height: 32px;
+}
+.titulo{
+    margin: 30px auto 25px auto;
+    max-width: 85%;
+    text-align: center;
+}
+.titulo h2{
+    font-size: 36px;
+}
+
+ul{
+    overflow: hidden;
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+    margin: 0 5px 5px;
+    vertical-align: top;
+    margin-right: 30px;/*mio*/
+}
+ul li a{
+    padding: 45px 0 0 0;
+    font-size: 22px;
+    color: #FFF;
+    display: block;
+    text-decoration: none;
+    /*height: 50px;*/
+}
+@media only screen and (min-width: 321px) {
+    ul li{
+        width: 200px;
+    }
+    .box6{
+        margin-bottom: 20px;
+    }
+}
+/*@media only screen and (min-width: 768px) {*/
+@media only screen and (min-width: 607px) {
+    ul li{
+        width: 120px;
+    }
+    .bottom li:nth-child(2){
+        width: 163px;
+    }
+    .footer li:nth-child(1){
+        width: 363px;
+    }
+    .box6{
+        padding-top: 15px;
+        padding-left: 30px;
+        margin-bottom: 0px;
+        height: 43px;
+        /*width : 100%;*/
+        background: url('../frontend_images/conoce6.png') no-repeat left 0 !important;
+    }
+}
+
+.box1{
+    background: url('../frontend_images/conoce1.png') no-repeat center 0;
+}
+.box2{
+    background: url('../frontend_images/conoce2.png') no-repeat center 0;
+}
+.box3{
+    background: url('../frontend_images/conoce3.png') no-repeat center 0;
+}
+.box4{
+    background: url('../frontend_images/conoce4.png') no-repeat center 0;
+}
+.box5{
+    background: url('../frontend_images/conoce5.png') no-repeat center 0;
+}
+.box6{
+    background: url('../frontend_images/conoce6.png') no-repeat center 0;
+}

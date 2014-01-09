@@ -1,0 +1,82 @@
+/*******************************
+The Fonts
+*******************************/
+*{
+    margin:0;
+    padding:0;
+}
+@font-face{
+    font-family:'carbon';
+    src:url("../frontend_fonts/CARBONBL.TTF");
+    font-weight:normal;
+    font-style:normal;
+}
+
+body{
+    overflow: hidden;
+}
+
+.contenedor{
+    position: relative;
+    max-width: 607px;
+    min-height: 387px;
+    height: 100%;
+    padding: 20px 0px;
+    background-image: url(http://test.adcentral.com/frontend_images/bg_popup.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+h2,label,input,.frm_registro li span{
+    font-family: 'carbon';
+    color: #ffffff;
+}
+input[type="text"],input[type="email"]{
+    outline: none !important;
+    color: #cbcbcb;
+}
+input{
+    background-color: transparent;
+    border: none;
+    font-size: 17px;
+}
+.titulo{
+    /*margin: 40px 10%;*/
+    margin: 40px 10% 40px 5%;
+    max-width: 85%;
+    text-align: center;
+}
+    .titulo h2{
+        font-size: 36px;
+    }
+
+.frm_registro{
+    text-align: left;
+    margin: 0 auto;
+    max-width: 85%;
+
+}
+    .frm_registro ul li{
+        margin: 6px 10%;
+        list-style: none;
+    }
+    .frm_registro ul li span{
+        font-size: 20px;
+        padding-left: 5px;
+    }
+    .frm_registro ul li:nth-child(5){
+        padding-left: 5px;
+    }
+    .boton{
+        float: right;
+        display: inline-block;
+    }
+    .boton input{
+        background: url(../frontend_images/btn1.png) no-repeat;
+        background-size: 100% 100%;
+        border: none;
+        width: 100px;
+        height: 28px;
+        font-size: 18px;
+        text-align: center;
+    }

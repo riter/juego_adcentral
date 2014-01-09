@@ -1,0 +1,102 @@
+/*******************************
+The Fonts
+*******************************/
+*{
+    margin:0;
+    padding:0;
+}
+@font-face{
+    font-family:'carbon';
+    src:url("../frontend_fonts/CARBONBL.TTF");
+    font-weight:normal;
+    font-style:normal;
+}
+
+body{
+    overflow: hidden;
+}
+
+.contenedor{
+    position: relative;
+    max-width: 607px;
+    min-width: 300px;
+    min-height: 387px;
+    height: 100%;
+    padding: 20px 0px;
+    background-image: url(../frontend_images/bg_popup.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+input{
+    outline: none !important;
+}
+h2,label,input{
+    font-family: 'carbon';
+    color: #ffffff;
+}
+
+.titulo{
+    margin: 40px auto;
+    max-width: 85%;
+    text-align: center;
+}
+    .titulo h2{
+        font-size: 36px;
+    }
+
+.frm_login{
+    text-align: left;
+    margin: 0 auto;
+    max-width: 85%;
+
+}
+    .frm_login ul li{
+        list-style: none;
+        padding: 40px 0px;
+        text-align: center;
+    }
+
+    .frm_login ul li > input{
+        background-image: url(../frontend_images/input.png);
+        background-size: 100% 100%;
+        border: none;
+        font-size: 20px;
+        width: 191px;
+        min-width: 147px;
+        height: 29px;
+        background-color: transparent;
+    }
+    .frm_login ul li > input[type=text] {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    input[type="text"]::-webkit-input-placeholder { color:#ffffff; }
+    input[type="text"]:-moz-placeholder { color:#ffffff; } /* firefox 19+ */
+    input[type="text"]::-moz-placeholder { color:#ffffff; } /* ie */
+    input[type="text"]:-ms-input-placeholder {  color:#ffffff; }
+    input[type="text"]:-moz-placeholder{color:#ffffff;}
+
+
+    .boton{
+        background: url(../frontend_images/btn1.png) no-repeat;
+        background-size: 100% 100%;
+        border: none;
+        height: 29px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .boton_enviar{
+        display: inline-block;
+    }
+    .boton_enviar > input{
+        width: 100px;
+        margin-left: -25PX;
+     }
+    .boton_registrarse{
+        text-align: center;
+    }
+    .boton_registrarse > input{
+        width: 150px;
+    }
+

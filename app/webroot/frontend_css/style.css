@@ -1,0 +1,367 @@
+/***
+     Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+     http://cssreset.com
+***/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
+	vertical-align:baseline;
+	}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{
+	display:block;
+	}
+body{
+	line-height:1;
+	}
+ol, ul{
+	list-style:none;
+	}
+blockquote, q{
+	quotes:none;
+	}
+blockquote:before, blockquote:after,
+q:before, q:after{
+	content:'';
+	content:none;
+	}
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+	}
+
+/*******************************
+The Fonts 
+*******************************/
+@font-face{
+	font-family:'carbon';
+	src:url("../frontend_fonts/CARBONBL.TTF");
+	font-weight:normal;
+	font-style:normal;
+}
+@font-face{
+    font-family:'digi';
+    src:url("../frontend_fonts/DS-DIGI.TTF");
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face{
+    font-family:'HelveticaNLTStd';
+    src:url("../frontend_fonts/HelveticaNLTStd.ttf");
+    font-weight:normal;
+    font-style:normal;
+}
+
+	
+/*******************************
+The Layout
+*******************************/
+
+body,html{
+	height:98%;
+}
+
+body{
+	background-color:#000;
+    background-image: url(../frontend_images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% -72px ;
+	font-family: 'Source Sans Pro', sans-serif;
+	}
+
+#wrapper{
+	width:960px;
+	margin:0 auto;
+	height:100%;
+	position:relative;
+}
+
+.header{
+    background-image: url(../frontend_images/header.png);
+    background-repeat: no-repeat;
+    margin-top:18px;
+	height:80px;
+}
+.footer{
+    background-image: url(../frontend_images/footer.png);
+    background-repeat: no-repeat;
+    height:125px;
+	width:100%;
+	position:absolute;
+	top:432px;
+    z-index: 99;
+}
+
+.footer .numero-1{
+    font-family: "digi";
+    position: absolute;
+    left: 205px;
+    top: 24px;
+    color: #fdd;
+    font-size: 26px;
+    text-shadow: 0px 0px 8px rgba(255, 20, 20, 1);
+}
+/*mio*/
+.footer .contend_txt1{
+    width: 220px;
+    height: inherit;
+    overflow: hidden;
+    margin: 0 18px;
+    text-align: center;
+    position: relative;
+}
+.contenedor{
+    width: 650px;
+    height: 400px;
+    position: absolute;
+    top: 153px;
+    left: 50%;
+    margin-left: -300px;
+    z-index: 9;
+}
+.panel{
+    width: 100%;
+    height: 100%;
+}
+/*****/
+.footer .texto-1{
+    font-family: "HelveticaNLTStd";
+    position: absolute;
+    color: #fff;
+    left: 0px;
+    top: 70px;
+    width: inherit;
+    height: 45px;
+    font-size: 14px;
+    text-align: center;
+
+}
+.footer .link-1{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 294px;
+    top: 79px;
+}
+.footer .link-2{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 353px;
+    top: 79px;
+}
+.footer .link-3{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 411px;
+    top: 79px;
+}
+
+.header ul.menu{
+    position:absolute;
+    left: 285px;
+    top: 24px;
+}
+
+.header ul.menu li{
+    float: left;
+    margin-left: 26px;
+}
+
+.header ul.menu li a{
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    font-family: carbon;
+}
+
+
+.avatar{
+    position: absolute;
+    left: 777px;
+    top: 11px;
+    width: 121px;
+    height: 40px;
+}
+
+.avatar .texto-1{
+    color: #fff;
+    position: absolute;
+    font-family: 'carbon';
+    left: 48px;
+    top: 0px;
+    font-size: 23px;
+    text-shadow: 2px 2px #000;
+}
+
+.avatar .texto-2{
+    color: #fff;
+    position: absolute;
+    font-family: 'carbon';
+    left: 48px;
+    top: 19px;
+    font-size: 23px;
+    text-shadow: 2px 2px #000;
+}
+
+
+.premios{
+    top: 100px;
+    right: 0px;
+    position: absolute;
+    width: 216px;
+    height: 373px;
+    overflow: hidden;
+    z-index: 99;
+}
+.premios-fondo{
+    background-image: url(../frontend_images/premios.png);
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    width: 216px;
+    height: 373px;
+}
+.premios .solapa{
+    position: absolute;
+    width: 38px;
+    height: 138px;
+    left: 5px;
+    top: 102px;
+}
+.premios .circulo{
+    position: absolute;
+    background-image: url(../frontend_images/circulo.png);
+    background-size: 100% 100%;
+}
+
+.premios .icono-1,.premios .icono-2,.premios .icono-3,.premios .icono-4{position:absolute;}
+
+.premios .tooltip-1,.premios .tooltip-2,.premios .tooltip-3,.premios .tooltip-4{position:absolute;background-size: 100% 100%;/*display:none;*/}
+
+.premios .tooltip-1{
+    background-image: url(../frontend_images/tooltip-1.png);
+    top: 282px;
+    left: 74px;
+}
+.premios .tooltip-2{
+    background-image: url(../frontend_images/tooltip-2.png);
+    top: 152px;
+    left: 23px;
+}
+.premios .tooltip-3{
+    background-image: url(../frontend_images/tooltip-3.png);
+    left: 143px;
+    top: 76px;
+}
+.premios .tooltip-4{
+    background-image: url(../frontend_images/tooltip-4.png);
+    top: 19px;
+    left: 0px;
+}
+
+/*
+.premios .icono-1:hover + div.tooltip-1{ display:block !important;}
+.premios .icono-2:hover + div.tooltip-2{ display:block !important;}
+.premios .icono-3:hover + div.tooltip-3{ display:block !important;}
+.premios .icono-4:hover + div.tooltip-4{ display:block !important;}
+*/
+
+.premios .circulo.nivel-1,
+.premios .icono-1{
+    width: 60px;
+    height: 54px;
+    left: 134px;
+    top: 245px;
+}
+.premios .circulo.nivel-2,
+.premios .icono-2{
+    width: 66px;
+    height: 66px;
+    left: 55px;
+    top: 177px;
+}
+.premios .circulo.nivel-3,
+.premios .icono-3{
+    width: 71px;
+    height: 77px;
+    left: 136px;
+    top: 110px;
+}
+.premios .circulo.nivel-4,
+.premios .icono-4{
+    width: 80px;
+    height: 77px;
+    left: 47px;
+    top: 54px;
+}
+
+.tiempo span{
+    width: 30px !important;
+    height: 30px !important;
+    display: inline-block;
+    text-align: right;
+}
+.tiempo{
+    background-image: url(../frontend_images/tiempo.png);
+    position:absolute;
+    left:50%;
+    top: 99px;
+    margin-left:-85px;
+    width: 130px;
+    height: 27px;
+    font-family: "digi";
+    color: #fdd;
+    font-size: 28px;
+    text-shadow: 0px 0px 8px rgba(255, 20, 20, 1);
+    padding: 23px 20px 17px 20px;
+    text-align: center;
+}
+.sebas{
+    background-image: url(../frontend_images/sebas.png);
+    position: absolute;
+    left: 324px;
+    top: 156px;
+    width: 424px;
+    height: 400px;
+    background-size: 100% 100%;
+}
+.btn-comenzar{
+    display:none;
+    background-image: url(../frontend_images/comenzar.png);
+    position: absolute;
+    width:182px;
+    height:46px;
+    left: 50%;
+    top:40%;
+    margin-left:-91px;
+    z-index: 999;
+}
+.mi-fancy{
+    display:none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    left: 0px;
+    top: 0px;
+    opacity: 0.75;
+    z-index: 9999;
+}

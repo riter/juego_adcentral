@@ -1,0 +1,112 @@
+
+
+
+/* iPads (portrait and landscape) (DESDE 768PX HASTA 1024PX VA SER DE COLOR ROJO) ----------- */
+@media only screen and (max-width : 1367px){
+    
+}
+
+/* 800 landscape , 768 portrait , 1024 landscape */
+
+/* MINI TABLETS (landscape)(HASTA 800PX ) ----------- */
+@media /*only*/ screen and (max-width :800px) /*and (min-width: 569px)*/{
+    
+}
+
+/* iPads (portrait) (HASTA 768PX COLOR AZUL)  ----------- */
+@media only screen and (max-width : 768px) {
+
+    body{
+        background-size: 140% 120%;
+        background-position: 50% 0px ;
+    }
+    #wrapper{
+        width:960px;
+    }
+    .header{
+        background-image: url(../frontend_images/header.png);
+        margin-top:18px;
+        height:80px;
+    }
+    .footer{
+        background-image: url(../frontend_images/footer.png);
+        height:125px;
+        top:432px;
+    }
+
+    .footer .numero-1{
+        left: 205px;
+        top: 24px;
+    }
+
+    .footer .texto-1{
+        font-family: "HelveticaNLTStd";
+        left: 38px;
+        top: 68px;
+        width: 210px;
+        height: 51px;
+        font-size: 14px;
+    }
+    .footer .link-1{
+        left: 294px;
+        top: 79px;
+    }
+    .footer .link-2{
+        left: 353px;
+        top: 79px;
+    }
+    .footer .link-3{
+        left: 411px;
+        top: 79px;
+    }
+    .header ul.menu{
+        left: 285px;
+        top: 24px;
+    }
+    .header ul.menu li{
+        margin-left: 26px;
+    }
+    .header ul.menu li a{
+        font-size: 17px;
+    }
+    .avatar{
+        left: 777px;
+        top: 11px;
+    }
+
+}
+
+/* MINI TABLETS (portrait)(HASTA 600PX COLOR AZUL) ----------- */
+@media  screen and (max-width :720px) {
+   
+}
+/* MINI TABLETS (portrait)(HASTA 600PX COLOR AZUL) ----------- */
+@media /*only*/ screen and (max-width :640px) /*and (min-width: 569px)*/{
+    
+}
+
+/* MINI TABLETS (portrait)(HASTA 600PX COLOR AZUL) ----------- */
+@media /*only*/ screen and (max-width :600px) /*and (min-width: 569px)*/{
+    
+}
+/* Smartphones (portrait) (HASTA 568PX IPHONE 5)----------- */
+@media screen and (max-width : 568px) {
+    
+}
+/* Smartphones (landscape) (HASTA 480PX COLOR NEGRO)----------- */
+@media screen and (max-width : 480px){
+
+}
+
+/*640*/
+
+/* Smartphones (portrait) (HASTA 360PX)----------- */
+@media screen and (max-width : 360px) {
+
+}
+
+/* Smartphones (portrait) (HASTA 320PX COLOR NEGRO)----------- */
+@media screen and (max-width : 320px) {
+ 
+}
+
