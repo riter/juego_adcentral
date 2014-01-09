@@ -36,10 +36,12 @@ class CompartirsController extends AppController{
         echo json_encode($res);
         $this->autoRender=false;
     }
-    public function ajax_compartio($dni=null){
+    public function ajax_compartio(){
         $this->layout = '';
 
-        $compartir=$this->Compartir->find('first',array('conditions'=>array('dni'=>$dni,'fecha'=>date('Y-m-d'))));
+        $user=$this->Session->read('usuario');
+
+        $compartir=$this->Compartir->find('first',array('conditions'=>array('dni'=>$user['dni'],'fecha'=>date('Y-m-d'))));
         if(!empty($compartir)){
             /* Ya compartio este dia*/
             echo 'Ok';

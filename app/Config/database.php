@@ -72,6 +72,17 @@ class DATABASE_CONFIG {
 		//'encoding' => 'utf8',
 	);
 
+    /*public $default = array(
+        'datasource' => 'Database/Mysql',
+        'persistent' => false,
+        'host' => 'localhost',
+        'login' => 'tuescort',
+        'password' => '8sdi!dfi98',
+        'database' => 'tuescort_adcentral',
+        'prefix' => '',
+        //'encoding' => 'utf8',
+    );*/
+
 	public $test = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,

@@ -90,7 +90,7 @@ $dominio = Router::url('/', true);
                 var res=false;
                 $.ajax({
                     data: '',
-                    url:   "/compartirs/ajax_compartio/"+dni,
+                    url:   "/compartirs/ajax_compartio/",
                     async:false,
                     beforeSend: function(){
                         $("body").append('<div id="fancybox-loading"><div></div></div>');
@@ -147,10 +147,10 @@ $dominio = Router::url('/', true);
                         console.log(response);
 
                         if(datos.msg=='compartio'){
-                            console.log('ud la compartio');
+                            alert('Ud ya compartio el dia de hoy');
                         }else{
                             if(datos.msg=='Ok' && datos.ganador=='Ok'){
-                               console.log('ud ha ganado un premio');
+                                alert('Felicitacion ganaste un/a '+datos.premio+' con has:'+ datos.hash);
                             }
                         }
                     }
