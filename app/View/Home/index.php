@@ -224,8 +224,9 @@ $dominio = Router::url('/', true);
                 return res;
             }
 
-            $('.conoce').click(function(){
-                openFancy('/home/conoce');
+            $('.conoce, .como').click(function(){
+                //openFancy('/home/conoce');
+                openFancy($(this).attr('href'));
                 return false;
             }) ;
 
@@ -261,8 +262,8 @@ $dominio = Router::url('/', true);
     <div class="header">
         <a href="#"  class="fancy"><img src="" alt="" /></a>
         <ul class="menu">
-            <li><a class="link-1" href="#" >¿COMO JUEGO?</a></li>
-            <li><a class="link-2 conoce" href="#" >CONOCE AL EQUIPO QUE TE ACOMPAÑA</a></li>
+            <li><a class="link-1 como" href="/home/como" >¿COMO JUEGO?</a></li>
+            <li><a class="link-2 conoce" href="/home/conoce" >CONOCE AL EQUIPO QUE TE ACOMPAÑA</a></li>
             <li><a class="link-3" href="#" >GANADORES</a></li>
         </ul>
 

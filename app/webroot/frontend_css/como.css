@@ -1,0 +1,81 @@
+/*******************************
+The Fonts
+*******************************/
+*{
+    margin:0;
+    padding:0;
+}
+@font-face{
+    font-family:'carbon';
+    src:url("../frontend_fonts/CARBONBL.TTF");
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face{
+    font-family:'HelveticaNLTStd';
+    src:url("../frontend_fonts/HelveticaNLTStd.ttf");
+    font-weight:normal;
+    font-style:normal;
+}
+
+body{
+    height: 100%;
+    overflow: hidden;
+}
+
+.contenedor{
+    font-family:'carbon';
+    position: relative;
+    max-width: 607px;
+    min-width: 300px;
+    height: 100%;
+    padding: 20px 0px;
+    background-image: url(../frontend_images/bg_popup.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+h2{
+    font-family: 'carbon';
+    color: #ffffff;
+}
+span{
+    font-family: 'HelveticaNLTStd';
+    color: #ffffff;
+    font-size:15px
+}
+.titulo{
+    margin: 15px auto 20px auto;
+    max-width: 85%;
+    text-align: center;
+}
+.titulo h2{
+    font-size: 36px;
+}
+
+.subbtitulo {
+    font-size: 14px !important;
+    width: 78%;
+    margin: 0 auto;
+}
+
+.contenido {
+    height: 260px;
+    width: 77%;
+    margin: 0 auto 20px auto;
+    overflow-y: scroll;
+}
+
+ul{
+    text-align: left;
+}
+
+    ul li {
+        list-style-type: none;
+        margin: 15px auto;
+    }
+        .pregunta {
+            display: block;
+            font-weight: bold;
+        }
+

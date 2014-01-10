@@ -21,4 +21,7 @@ class HomeController extends AppController{
     public function conoce(){
         $this->layout='';
     }
+    public function como(){
+        $this->layout='';
+    }
 } 

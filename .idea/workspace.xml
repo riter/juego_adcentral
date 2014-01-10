@@ -26,16 +26,7 @@
       <file leaf-file-name="HomeController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Controller/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="83" selection-start="255" selection-end="445" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="408">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/View/Home/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="151" column="28" selection-start="5499" selection-end="5499" vertical-scroll-proportion="-11.461538" vertical-offset="2269" max-vertical-offset="5355">
+            <state line="11" column="25" selection-start="210" selection-end="210" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="459">
               <folding />
             </state>
           </provider>
@@ -44,61 +35,52 @@
       <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/View/Usuarios/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="56" selection-start="959" selection-end="975" vertical-scroll-proportion="-15.038462" vertical-offset="85" max-vertical-offset="816">
+            <state line="12" column="60" selection-start="388" selection-end="388" vertical-scroll-proportion="-3.2692308" vertical-offset="119" max-vertical-offset="816">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/View/Usuarios/index.php">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/webroot/js/home/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="77" selection-start="1525" selection-end="1525" vertical-scroll-proportion="0.34" vertical-offset="459" max-vertical-offset="1241">
+            <state line="24" column="0" selection-start="531" selection-end="560" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1241">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ganaste.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/View/Compartirs/ganaste.php">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/Home/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="33" selection-start="621" selection-end="621" vertical-scroll-proportion="-8.115385" vertical-offset="129" max-vertical-offset="731">
+            <state line="228" column="44" selection-start="8225" selection-end="8225" vertical-scroll-proportion="-4.3461537" vertical-offset="3763" max-vertical-offset="5372">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="compartiste.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/webroot/frontend_css/compartiste.css">
+      <file leaf-file-name="como.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/View/Home/como.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="0" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0" vertical-offset="545" max-vertical-offset="1105">
+            <state line="31" column="73" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.35892513" vertical-offset="340" max-vertical-offset="1275">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RankingsController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Controller/RankingsController.php">
+      <file leaf-file-name="como.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/webroot/frontend_css/como.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="5" selection-start="1205" selection-end="1205" vertical-scroll-proportion="-1.5769231" vertical-offset="554" max-vertical-offset="1173">
+            <state line="44" column="16" selection-start="852" selection-end="852" vertical-scroll-proportion="0.0" vertical-offset="588" max-vertical-offset="1479">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CompartirsController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Controller/CompartirsController.php">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/webroot/frontend_css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="14" selection-start="1955" selection-end="1955" vertical-scroll-proportion="-8.115385" vertical-offset="843" max-vertical-offset="2295">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/webroot/js/usuario/login.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="50" selection-start="895" selection-end="929" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+            <state line="68" column="1" selection-start="1371" selection-end="1520" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="6324">
               <folding />
             </state>
           </provider>
@@ -114,12 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/webroot/frontend_css/style.css" />
-        <option value="$PROJECT_DIR$/app/webroot/js/juego/juego.js" />
-        <option value="$PROJECT_DIR$/app/webroot/js/home/main.js" />
-        <option value="$PROJECT_DIR$/app/Controller/UsuariosController.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/app/Config/database.php" />
         <option value="$PROJECT_DIR$/app/webroot/frontend_css/conoce.css" />
         <option value="$PROJECT_DIR$/app/webroot/frontend_css/ganaste.css" />
         <option value="$PROJECT_DIR$/app/webroot/frontend_css/continuar.css" />
@@ -127,9 +103,15 @@
         <option value="$PROJECT_DIR$/app/View/Compartirs/compartiste.php" />
         <option value="$PROJECT_DIR$/app/View/Compartirs/ganaste.php" />
         <option value="$PROJECT_DIR$/app/Controller/CompartirsController.php" />
-        <option value="$PROJECT_DIR$/app/View/Home/index.php" />
         <option value="$PROJECT_DIR$/app/View/Usuarios/login.php" />
         <option value="$PROJECT_DIR$/app/View/Usuarios/index.php" />
+        <option value="$PROJECT_DIR$/app/Controller/HomeController.php" />
+        <option value="$PROJECT_DIR$/app/webroot/js/home/como.js" />
+        <option value="$PROJECT_DIR$/app/webroot/frontend_js/sbscroller/jquery.sbscroller.js" />
+        <option value="$PROJECT_DIR$/app/webroot/frontend_js/sbscroller/jquery.sbscroller.css" />
+        <option value="$PROJECT_DIR$/app/View/Home/index.php" />
+        <option value="$PROJECT_DIR$/app/webroot/frontend_css/como.css" />
+        <option value="$PROJECT_DIR$/app/View/Home/como.php" />
       </list>
     </option>
   </component>
@@ -235,7 +217,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="frontend_css" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -471,11 +453,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\test.adcentral\app\webroot\frontend_css" />
-      <recent name="C:\xampp\htdocs\test.adcentral\app\View\Compartirs" />
       <recent name="C:\xampp\htdocs\test.adcentral\app\webroot\frontend_images" />
-      <recent name="C:\xampp\htdocs\test.adcentral\app\webroot\js\ranking" />
-      <recent name="C:\xampp\htdocs\test.adcentral\app\webroot\js\home" />
+      <recent name="C:\xampp\htdocs\test.adcentral\app\webroot\frontend_js" />
+      <recent name="C:\xampp\htdocs\test.adcentral\app\webroot\frontend_css" />
+      <recent name="C:\xampp\htdocs\test.adcentral\app\View\Home" />
+      <recent name="C:\xampp\htdocs\test.adcentral\app\View\Compartirs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\test.adcentral\app\webroot\frontend_js\fancybox" />
@@ -548,83 +530,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/webroot/js/ranking/continuar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="7" selection-start="239" selection-end="239" vertical-scroll-proportion="0.27321428" vertical-offset="0" max-vertical-offset="560">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/webroot/js/home/facebook.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="25" selection-start="90" selection-end="90" vertical-scroll-proportion="0.15539305" vertical-offset="0" max-vertical-offset="1870">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Rankings/continuar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="66" selection-start="497" selection-end="497" vertical-scroll-proportion="0.26779026" vertical-offset="95" max-vertical-offset="765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/webroot/frontend_css/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="29" selection-start="560" selection-end="585" vertical-scroll-proportion="0.60714287" vertical-offset="170" max-vertical-offset="1836">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/webroot/frontend_css/conoce.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="6" selection-start="1773" selection-end="1773" vertical-scroll-proportion="0.54464287" vertical-offset="1361" max-vertical-offset="2057">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/webroot/frontend_css/continuar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="1" selection-start="1496" selection-end="1496" vertical-scroll-proportion="0.87857145" vertical-offset="851" max-vertical-offset="1445">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/webroot/frontend_css/ganaste.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="1" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0" vertical-offset="460" max-vertical-offset="1632">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/webroot/frontend_css/compartiste.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="0" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0" vertical-offset="545" max-vertical-offset="1105">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Compartirs/compartiste.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="40" selection-start="100" selection-end="100" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Compartirs/ganaste.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="33" selection-start="621" selection-end="621" vertical-scroll-proportion="-8.115385" vertical-offset="129" max-vertical-offset="731">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="83" selection-start="255" selection-end="445" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="408">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/RankingsController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="5" selection-start="1205" selection-end="1205" vertical-scroll-proportion="-1.5769231" vertical-offset="554" max-vertical-offset="1173">
@@ -639,23 +544,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Home/index.php">
+    <entry file="file://$PROJECT_DIR$/app/View/Usuarios/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="151" column="28" selection-start="5499" selection-end="5499" vertical-scroll-proportion="-11.461538" vertical-offset="2269" max-vertical-offset="5355">
+        <state line="37" column="77" selection-start="1525" selection-end="1525" vertical-scroll-proportion="0.34" vertical-offset="459" max-vertical-offset="1241">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/webroot/js/usuario/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="50" selection-start="895" selection-end="929" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/webroot/frontend_css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="1" selection-start="1371" selection-end="1520" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="6324">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/webroot/frontend_js/sbscroller/jquery-ui.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="57" selection-start="8994" selection-end="8994" vertical-scroll-proportion="0.559415" vertical-offset="0" max-vertical-offset="6970">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/webroot/js/home/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="531" selection-end="560" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1241">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/webroot/js/home/como.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="113" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/webroot/frontend_images/barra.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/webroot/frontend_js/sbscroller/jquery.sbscroller.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="48" selection-start="284" selection-end="284" vertical-scroll-proportion="0.12431444" vertical-offset="0" max-vertical-offset="547">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/webroot/frontend_js/sbscroller/jquery.sbscroller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="41" selection-start="352" selection-end="352" vertical-scroll-proportion="0.24862888" vertical-offset="0" max-vertical-offset="2805">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Usuarios/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="56" selection-start="959" selection-end="975" vertical-scroll-proportion="-15.038462" vertical-offset="85" max-vertical-offset="816">
+        <state line="12" column="60" selection-start="388" selection-end="388" vertical-scroll-proportion="-3.2692308" vertical-offset="119" max-vertical-offset="816">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Usuarios/index.php">
+    <entry file="file://$PROJECT_DIR$/app/Controller/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="77" selection-start="1525" selection-end="1525" vertical-scroll-proportion="0.34" vertical-offset="459" max-vertical-offset="1241">
+        <state line="11" column="25" selection-start="210" selection-end="210" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Home/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="228" column="44" selection-start="8225" selection-end="8225" vertical-scroll-proportion="-4.3461537" vertical-offset="3763" max-vertical-offset="5372">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/webroot/frontend_css/como.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="16" selection-start="852" selection-end="852" vertical-scroll-proportion="0.0" vertical-offset="588" max-vertical-offset="1479">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Home/como.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="73" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.35892513" vertical-offset="340" max-vertical-offset="1275">
           <folding />
         </state>
       </provider>
